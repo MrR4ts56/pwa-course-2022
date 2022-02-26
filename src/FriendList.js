@@ -14,7 +14,14 @@ function FriendList(){
   return(
     <App>
       <div className="friend-list">
-       ใส่โค้ดที่นี่
+        {
+          friends.map
+          (x=>
+            <div className='friend-list-item'>{x.user}
+            <Avatar data={friends}/>
+            </div>
+          )
+        }
       </div>
     </App>
   )

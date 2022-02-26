@@ -11,6 +11,9 @@ function Chat() {
     {user: "user2", msg: "Hi", position: "right"},
     {user: "user1", msg: "How are you?", position: "left"},
     {user: "user2", msg: "I'm fine, thank you. And you?", position: "right"},
+    {user: "user2", msg: "Hey, Why are you ignoring me??", position: "right"},
+    {user: "user1", msg: "...", position: "left"},
+    {user: "user1", msg: "You're not even waiting for me to respond.", position: "left"},
   ]);
 
   return (
