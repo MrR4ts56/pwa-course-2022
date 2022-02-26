@@ -19,7 +19,7 @@ function FriendList(){
           (x=>
             <div className='friend-list-item'>
             <Avatar data={friends}/>
-            - {x.displayName}
+            {x.displayName}
             </div>
           )
         }
