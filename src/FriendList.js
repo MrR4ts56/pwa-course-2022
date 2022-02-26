@@ -18,8 +18,8 @@ function FriendList(){
           friends.map
           (x=>
             <div className='friend-list-item'>
-              {x.user} - {x.displayName}
             <Avatar data={friends}/>
+            - {x.displayName}
             </div>
           )
         }
