@@ -5,13 +5,13 @@ function Tabbar () {
   return (
     <div className="tabbar stick-bottom">
       <Link to="/friend-list" className="tabbutton">
-        Friend List
+        The Star App
       </Link>
       <Link to="/chat" className="tabbutton">
-        Chat
+        ห้องแชท
       </Link>
       <Link to="/profile" className="tabbutton">
-        Profile
+        โปรไฟล์
       </Link>
     </div>
   )

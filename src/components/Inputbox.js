@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 function Inputbox (props) {
   const [value, setValue] = useState(props.value||"");
 
@@ -35,7 +34,7 @@ function Inputbox (props) {
           setValue("");
         }}
         className="button"
-      />    
+      />  
     </div>
   )
 }

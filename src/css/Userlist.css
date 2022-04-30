@@ -2,7 +2,7 @@
   position: absolute;
   top: 0px;
   bottom: 0px;
-  background-color: #331a12;
+  background-color: #e4e0be;
   z-index: 100;
   width: 300px;
 }
@@ -40,7 +40,7 @@
   .userlist {
     flex: 2;
     position: relative;
-    background-color: #06668c;
+    background-color: #e4e0be;
     width: unset;
     max-width: 300px;
   }

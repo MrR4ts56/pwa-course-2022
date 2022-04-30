@@ -1,14 +1,15 @@
 import './FriendList.css';
-import App from './components/App';
+import App2 from './components/App2';
 import Avatar from './components/Avatar';
 import { useChatStateContext } from './context/FirebaseChatContextProvider';
 import { Link } from 'react-router-dom';
+import TabbarUp from './components/TabbarUp';
 
 function FriendList(){
   const { userList } = useChatStateContext();
 
   return(
-    <App>
+    <App2>
       <div className="friend-list">
       {
         userList.map((item) => {
@@ -23,7 +24,7 @@ function FriendList(){
         })
       }
       </div>
-    </App>
+    </App2>
   )
 }
 

@@ -4,6 +4,7 @@ import Chatbox from './components/Chatbox.js';
 import Titlebar from './components/Titlebar.js';
 import Userlist from './components/Userlist.js';
 import Inputbox from './components/Inputbox.js';
+import Tabbar from './components/Tabbar';
 import './Chat.css';
 import { useChatStateContext } from './context/FirebaseChatContextProvider';
 import { useAuthStateContext } from './context/FirebaseAuthContextProvider';

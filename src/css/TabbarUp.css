@@ -1,12 +1,12 @@
-.tabbar {
+.tabbarup {
   height: 50px;
-  background-color: #e7bd6e;
+  background-color: #daca75;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.tabbar .tabbutton {
+.tabbarup .tabbutton {
   display: inline-block;
   text-align: center;
   font-size: 1.5em;
@@ -18,31 +18,31 @@
   transition: background-color 1s;
 }
 
-.tabbar .tabbutton:hover {
+.tabbarup .tabbutton:hover {
   border-radius: 50%;
-  background-color: #d0f52b;;
+  background-color: #c1eb29;;
 }
 
-.tabbar.stick-bottom {
+.tabbarup.stick-bottom {
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
-.tabbar.stick-top {
+.tabbarup.stick-top {
   position: absolute;
   top: 0px;
   width: 100%;
 }
 
-.tabbar.stick-left {
+.tabbarup.stick-left {
   position: absolute;
   left: 0px;
   height: 100%;
   flex-direction: column;
 }
 
-.tabbar.stick-right {
+.tabbarup.stick-right {
   position: absolute;
   right: 0px;
   height: 100%;
